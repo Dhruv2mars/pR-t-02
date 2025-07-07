@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "To-Do App",
+    "slug": "to-do-app",
+    "version": "1.0.0",
+    "scheme": "todo-app",
+    "platforms": [
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.todoapp.test",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "splash": {
+        "image": "./src/assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png",
+      "bundler": "webpack"
+    },
+    "plugins": [
+      "expo-sqlite",
+      [
+        "expo-router",
+        {
+          "root": "./app"
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false,
+        "root": "./app"
+      },
+      "eas": {
+        "projectId": "2c6386a8-1ab7-4add-9e7b-9d5bad17039e"
+      }
+    },
+    "owner": "dhruv2mars"
+  }
+}
