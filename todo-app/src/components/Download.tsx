@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Pressable, Linking } from 'react-native';
 
 export default function Download() {
   const handleDownload = () => {
-    Linking.openURL('https://github.com/username/todo-app/releases');
+    Linking.openURL('https://github.com/Dhruv2mars/pR-t-02/releases/download/v0.0.1/application-64978fc2-7cd0-4225-b3fb-0a6ccd9caaff.apk');
   };
 
   return (
