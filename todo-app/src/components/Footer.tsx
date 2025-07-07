@@ -2,16 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function Footer() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>
-        Built with ❤️ by Team OpenCode
-      </Text>
-      <Text style={styles.subtext}>
-        Created for the Hackathon Challenge
-      </Text>
-    </View>
-  );
+  return null;
 }
 
 const styles = StyleSheet.create({
